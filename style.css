@@ -1,0 +1,61 @@
+
+
+body {
+    background-color: white;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: blue;
+}
+
+nav {
+    padding: 0.25rem;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+.btn-link .text-danger:hover {
+    color: rgb(244, 0, 0);
+}  
+
+.search-field {
+
+    width: 20rem;
+    max-width: 95%;
+    /* background-color: #7e7e7e28; */
+    /* border-radius: 100px; */
+    border: none; 
+    padding: 8px 35px 8px 35px;
+    align-items: center;
+    font-size: 12px;
+}
+
+.table-container {
+    margin-top: 1rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 0 0 1rem 1rem;
+}
+
+.price-col:before {
+    content: 'P '; 
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.rd {
+    background-color: #6c757d33;
+    padding: 0.25rem;
+    margin: 0;
+    border-radius: 5px;
+    
+}
