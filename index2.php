@@ -316,9 +316,9 @@
 
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary btn-sm p-2 ps-4 pe-4 fw-bold" data-bs-dismiss="modal">Cancel</button>
-                        <form class="form" action="delete.php" method="POST">
+                        <form class="form" action="deleteData.php" method="POST">
                             <input type="hidden" name="del" id="del">
-                            <button type="submit" name="delete" class="btn btn-danger btn-sm p-2 ps-4 pe-4 fw-bold">Delete</button>
+                            <button type="submit" name="deleteData" class="btn btn-danger btn-sm p-2 ps-4 pe-4 fw-bold">Delete</button>
                         </form>
                     </div>
 
@@ -377,6 +377,7 @@
             $(document).ready(function () {   
 
                 $('button').on('click', function(e) {
+                    console.log
                 });
 
                
